@@ -756,8 +756,8 @@ ShaderMaker::ShaderMaker():CFreeFrameGLPlugin()
 	*/
 
 	// Input properties allow for no texture or for four textures
-	SetMinInputs(0);
-	SetMaxInputs(2); // TODO - 4 inputs
+	SetMinInputs(1);
+	SetMaxInputs(1); // TODO - 4 inputs
 
 	// Parameters
 	//SetParamInfo(FFPARAM_SPEED,         "Speed",         FF_TYPE_STANDARD, 0.5f); m_UserSpeed = 0.5f;
